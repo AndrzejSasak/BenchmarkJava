@@ -1,3 +1,29 @@
 # .semgrepignore
-*
-!/src/main/java/**
+/.github
+/.mvn
+/VMs
+/data
+/results
+/scorecard
+/scripts
+/src/config/**
+/src/site/**
+/tools
+.gitattributes
+.keystore
+.travis.yml
+DevStyleHtml.prefs
+DevStyleXml.prefs
+LICENSE
+OWASP Benchmark.URL
+README.md
+createAnonScorecards.sh
+createScorecards.sh
+expectedresults-1.2.csv
+pom.xml
+runBenchmark.bat
+runBenchmark.sh
+runCrawler.bat
+runCrawler.sh
+runRemoteAccessibleBenchmark.bat
+runRemoteAccessibleBenchmark.sh
