@@ -1,8 +1,7 @@
 name: Snyk Code Scan for src/main/java
 
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 
 jobs:
   snyk-code:
