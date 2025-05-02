@@ -30,4 +30,4 @@ jobs:
 
       - name: Run Snyk Code scan only on src/main/java
         working-directory: isolated
-        run: snyk code test || true
+        run: snyk code test
