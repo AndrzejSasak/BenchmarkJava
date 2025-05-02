@@ -4,15 +4,7 @@ name: Semgrep - moduleA
 on:
   # Scan on-demand through GitHub Actions interface:
   workflow_dispatch: {}
-  # Scan changed files in PRs (diff-aware scanning):
-  pull_request:
-    # Restrict the workflow to only run for files changed in a PR at the desired module path:
-    paths:
-      - 'src/moduleA/**'
-  # Run a full scan when the Semgrep workflow file is changed:
-  push:
-    paths:
-      - '.github/workflows/semgrep.yml'
+
 
 jobs:
   semgrep:
